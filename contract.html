@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+    <hr />
+    <h3>PLS Fill form:</h3>
+    <form action="./index.html" method="get">
+        <fieldset>
+            <legend>User info</legend>
+            <label>FirstName:
+                <input type="text" name="fname"><br>
+            </label>
+            <br>
+            <label>LastName:
+                <input type="text" name="lname"><br>
+            </label>
+            <br>
+            <fieldset>
+            <legend>
+                Course
+            </legend>
+            <label>
+                <input type="radio" name="course" value="html">HTML
+            </label>
+            <label>
+                <input type="radio" name="course" value="css">CSS
+            </label>
+            <label>
+                <input type="radio" name="course" value="java">JAVA
+            </label></fieldset><br>
+            <fieldset><legend>Framework</legend>
+            <label><br>
+                <input type="radio" name="framework" value="React">
+
+                React</label><br><br>
+
+            <label>
+                <input type="radio" name="framework" value="Angular">
+
+                Angular
+            </label>
+            <br><br></fieldset>
+
+            <br><button>OK</button>    
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

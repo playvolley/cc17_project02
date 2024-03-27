@@ -1,0 +1,15 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.table-user{
+    background-color: rgb(181, 255, 170);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-user td, table.user th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
